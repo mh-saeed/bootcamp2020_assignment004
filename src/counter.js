@@ -24,7 +24,15 @@ function Counter() {
               setMorning(!isMorning);
           }
       }>Change Background</button>
+      <br/>
+      <button className="button"
+      onClick={
+          ()=>{
+              setCount(count=0);
+          }
+      }>Reset Counter</button>
     </div>
+    
   );
 }
 export default Counter;
