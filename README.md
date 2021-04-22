@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Assignment Surge link: http://bootcamp2020_ass_4.surge.sh/
 
 ## Available Scripts
 
