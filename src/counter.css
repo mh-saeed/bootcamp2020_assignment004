@@ -1,0 +1,16 @@
+.box {
+  background-color: darkgrey;
+  max-width: 600px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 10px 0 10px 0;
+  border-radius: 5px;
+}
+
+.morning{
+    background-color: yellow;
+}
+.button{
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+}
