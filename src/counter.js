@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Message from "./message";
 import IsMorning from "./time";
-import './counter.css'
+import "./counter.css";
 
 function Counter() {
   let [count, setCount] = useState(0);
@@ -10,7 +10,8 @@ function Counter() {
     <div className={`box ${isMorning ? `morning` : ``}`}>
       <IsMorning dayTime={isMorning ? `Morning` : `Night`} />
       <Message counter={count} />
-      <button className="button"
+      <button
+        className="button"
         onClick={() => {
           setCount(++count);
         }}
@@ -18,21 +19,24 @@ function Counter() {
         Update Counter
       </button>
 
-      <button className="button"
-        onClick={
-          () => {
-            setMorning(!isMorning);
-          }
-        }>Change Background</button>
+      <button
+        className="button"
+        onClick={() => {
+          setMorning(!isMorning);
+        }}
+      >
+        Change Background
+      </button>
       <br />
-      <button className="button"
-        onClick={
-          () => {
-            setCount(count = 0);
-          }
-        }>Reset Counter</button>
+      <button
+        className="button"
+        onClick={() => {
+          setCount((count = 0));
+        }}
+      >
+        Reset Counter
+      </button>
     </div>
-
   );
 }
 export default Counter;
